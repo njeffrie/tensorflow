@@ -17,14 +17,14 @@ else
 endif
 
 ifeq ($(HOST_OS),osx)
-  GCC_EMBEDDED_URL := "http://mirror.tensorflow.org/developer.arm.com/-/media/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-mac.tar.bz2"
-  GCC_EMBEDDED_MD5 := "a66be9828cf3c57d7d21178e07cd8904"
+  GCC_EMBEDDED_URL := "http://mirror.tensorflow.org/developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-mac.tar.bz2"
+  GCC_EMBEDDED_MD5 := "75a171beac35453fd2f0f48b3cb239c3"
 else ifeq ($(HOST_OS),windows)
-  GCC_EMBEDDED_URL := "http://mirror.tensorflow.org/developer.arm.com/-/media/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-win32.zip"
-  GCC_EMBEDDED_MD5 := "bc8ae26d7c429f30d583a605a4bcf9bc"
+  GCC_EMBEDDED_URL := "http://mirror.tensorflow.org/developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-win32.zip"
+  GCC_EMBEDDED_MD5 := "184b3397414485f224e7ba950989aab6"
 else
-  GCC_EMBEDDED_URL := "http://mirror.tensorflow.org/developer.arm.com/-/media/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2"
-  GCC_EMBEDDED_MD5 := "299ebd3f1c2c90930d28ab82e5d8d6c0"
+  GCC_EMBEDDED_URL := "http://mirror.tensorflow.org/developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2"
+  GCC_EMBEDDED_MD5 := "2b9eeccc33470f9d3cda26983b9d2dc6"
 endif
 
 LEON_BCC2_URL := "http://mirror.tensorflow.org/www.gaisler.com/anonftp/bcc2/bin/bcc-2.0.7-gcc-linux64.tar.xz"
